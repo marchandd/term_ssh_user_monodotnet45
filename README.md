@@ -40,7 +40,10 @@ deny,
 you will have to disable 22 port filtering:  
 - Make a new rule for OpenSSH (22/TCP) to enable outgoing policy.
 
-## Build container
+## Build container (standalone mode only)
+
+Not necessary to do if you want only to run MonoDevelop image...         
+Standalone mode only if you want to do software install by yourself.
 
 ### Command line
 
@@ -54,7 +57,7 @@ Where YYYYY is your Private port, if you doesn't know free port, try from 49200.
 - Run in detached mode.
 - Export port 22.
 
-## Container usage
+## Container usage (standalone mode only)
 
 ### SSH access
 
