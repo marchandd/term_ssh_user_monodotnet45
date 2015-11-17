@@ -43,7 +43,7 @@ Standalone mode only if you want to do software install by yourself.
 
 ### Command line
 
-:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:22 marchandd/term_ssh_user_monodotnet45`
+:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:22 --name latest_term_ssh_user_monodotnet45 marchandd/term_ssh_user_monodotnet45`
 
 Where XXX.XXX.XXX.XXX is your IP v4 address.  
 Where YYYYY is your Private port, if you doesn't know free port, try from 49200...
