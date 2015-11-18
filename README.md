@@ -60,7 +60,8 @@ Where YYYYY is your Private port, if you doesn't know free port, try from 49200.
 Open terminal with docker account.
 Basic fixed password for Docker public repository = 'term_ssh_user_monodotnet45'
 
-:computer: `ssh -X docker@XXX.XXX.XXX.XXX -p YYYYY`
+:computer: `ssh -X docker@XXX.XXX.XXX.XXX -p YYYYY`  
+:computer: `mono -V` display v4.2.1 (at 20151117)
 
 ## Explanations
 
